@@ -5,7 +5,7 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
-    font-family: "Lucida Console", Courier, monospace;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 #container {
     width: 100%;
@@ -24,32 +24,33 @@ body {
     div {
         display: block;
         float: left;
-        width: 50%;
+        width: 40%;
         height: 80%;
         position: relative;
     }
-    h1 {
-        display: block;
-        text-align: center;
-        position: absolute;
-        margin: 90px;
-        bottom: 227px;
-        right: 20px;
-    }
-    p {
-        display: inline-block;
-        text-align: center;
-        position: absolute;
-        bottom: 200px;
-        right: 84px;
-        margin-left: 72px;
-        padding: 2px;
-    }
+        h1 {
+            display: block;
+            text-align: center;
+            position: absolute;
+            margin: 90px;
+            bottom: 227px;
+            right: 20px;
+        }
+        p {
+            display: inline-block;
+            text-align: center;
+            position: absolute;
+            bottom: 200px;
+            right: 84px;
+            margin-left: 72px;
+            padding: 2px;
+        }
 #logo {
     display: inline-block;
     text-align: center;
-    width: 15%;
-    height: 6vh;
+    width: 12%;
+    height: 5vh;
+    padding: 4px;
 }
 #leftTop {
     display: inline-block;
