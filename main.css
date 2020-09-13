@@ -1,0 +1,100 @@
+body {
+    background-image: url(./images/dropboxBackground.png);
+    background-size: cover;
+    background-repeat: repeat-x;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Console", Courier, monospace;
+}
+#container {
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    position: relative;
+}
+    header {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+    div {
+        display: block;
+        float: left;
+        width: 50%;
+        height: 80%;
+        position: relative;
+    }
+    h1 {
+        display: block;
+        text-align: center;
+        position: absolute;
+        margin: 90px;
+        bottom: 227px;
+        right: 20px;
+    }
+    p {
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+        bottom: 200px;
+        right: 84px;
+        margin-left: 72px;
+        padding: 2px;
+    }
+#logo {
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    height: 6vh;
+}
+#leftTop {
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    padding: 9px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    margin: 10px;
+    border-radius: 8px;
+}
+#rightTop {
+    display: inline-block;
+    float: right;
+    padding: 20px;
+    text-decoration: none;
+}
+#tryButton {
+    display: inline-block;
+    color: #ffffff;
+    width: 230px;
+    height: 60px;
+    float: left;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: lightseagreen;
+}
+#getButton {
+    display: inline-block;
+    color: lightseagreen;
+    width: 230px;
+    height: 60px;
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+    border: 1px solid lightseagreen;
+    border-radius: 8px;
+}
+#tryButton:hover {
+    cursor: pointer;
+}
+#getButton:hover {
+    cursor: pointer;
+}
